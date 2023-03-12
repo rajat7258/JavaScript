@@ -19,7 +19,7 @@ Table of Contents
 
 
 
-1. Introduction
+Introduction
 
 
 JavaScript is a powerful and versatile programming language that can be used for a wide range of applications. In this repository, I will be sharing all the concepts I have learned about JavaScript so far, including its syntax, data types, control structures, functions, and more.

@@ -1,0 +1,33 @@
+function z() {
+  var b = 900;
+  function x() {
+    var a = 7;
+    function y() {
+      console.log(a, b);
+    }
+    y();
+  }
+  x();
+}
+z();
+
+//This code defines three nested functions: z, x, and y. When z() is called, it sets the value of b to 900 and then calls x(). 
+When x() is called, it sets the value of a to 7 and then calls y().
+Finally, y() logs the values of a and b to the console, which are 7 and 900 respectively.
+So, when you run z(), you should see the output 7 900 printed to the console.
+
+
+CLOSURES IN JavaScript 
+
+1. The inner function y() has access to the variables in the outer function x(), including a and b. 
+This is an example of lexical scoping in JavaScript, which allows inner functions to access variables declared in outer functions.
+
+2. The outer function x() has access to the variable b in the parent function z(). 
+This is another example of lexical scoping and creates a closure over the variable b.
+
+Closures occur when a function has access to variables in its outer (enclosing) scope, 
+even after the outer function has returned. In this code, the function y() has access to a and b in its enclosing scopes, 
+even though those variables were declared in separate functions.
+
+In other words, the closure created by x() enables y() to "remember" the values of a and b from the time x() was called, 
+even though x() has already completed execution.

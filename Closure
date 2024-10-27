@@ -19,6 +19,7 @@ So, when you run z(), you should see the output 7 900 printed to the console.
 
 CLOSURES IN JavaScript 
 
+
 1. The inner function y() has access to the variables in the outer function x(), including a and b. 
 This is an example of lexical scoping in JavaScript, which allows inner functions to access variables declared in outer functions.
 
